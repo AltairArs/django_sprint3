@@ -20,8 +20,8 @@ class Location(models.Model):
     )
 
     class Meta:
-        verbose_name='местоположение'
-        verbose_name_plural='Местоположения'
+        verbose_name ='местоположение'
+        verbose_name_plural ='Местоположения'
 
 
 class Category(models.Model):
@@ -49,8 +49,8 @@ class Category(models.Model):
     )
 
     class Meta:
-        verbose_name='категория'
-        verbose_name_plural='Категории'
+        verbose_name ='категория'
+        verbose_name_plural ='Категории'
 
 
 class Post(models.Model):
@@ -95,5 +95,5 @@ class Post(models.Model):
     )
 
     class Meta:
-        verbose_name='публикация'
-        verbose_name_plural='Публикации'
+        verbose_name ='публикация'
+        verbose_name_plural ='Публикации'
